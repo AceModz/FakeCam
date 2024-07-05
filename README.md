@@ -21,6 +21,6 @@ Fake Cam is a Python application that simulates a virtual camera by broadcasting
 
 1. Download the repository from GitHub or clone it using Git:
    
-bash
+
    git clone https://github.com/AceModz/FakeCam.git
    cd FakeCam
