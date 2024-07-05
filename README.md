@@ -36,3 +36,52 @@ Fake Cam is a Python application that simulates a virtual camera by broadcasting
 ### Notes ℹ️
 **Virtual Camera: Ensure you have OBS Studio or another application that supports virtual cameras installed to use the broadcasted feed.**
 **File Formats: Supported formats include .png, .jpg, .jpeg for images and .mp4, .avi, .mov for videos.**
+
+
+
+
+
+# Fake Cam 📸
+
+Fake Cam est une script en Python qui simule une caméra virtuelle en diffusant des images ou des vidéos. Elle utilise OpenCV pour la capture et la manipulation des images et vidéos, et PyVirtualCam pour créer une caméra virtuelle qui peut être utilisée dans diverses applications.
+
+## Caractéristiques ✨
+- Téléchargement et diffusion de fichiers images (.png, .jpg, .jpeg).
+- Téléchargement et diffusion de fichiers vidéo (.mp4, .avi, .mov).
+- Interface utilisateur graphique (GUI) simple utilisant Tkinter.
+- Boutons de lecture et d'arrêt pour contrôler la diffusion.
+- Prise en charge de la diffusion vers des applications qui reconnaissent les caméras virtuelles (par exemple, OBS Studio).
+
+## Exigences 🛠️
+- Python 3.6+
+- OpenCV (pip install opencv-python)
+- PyVirtualCam (pip install pyvirtualcam)
+- Tkinter (généralement inclus dans les installations Python)
+
+### Installation 🚀
+
+1. Téléchargez le dépôt depuis GitHub ou clonez-le à l'aide de Git :
+   
+
+   - git clone https://github.com/AceModz/FakeCam.git
+   - cd FakeCam
+   - pip install opencv-python pyvirtualcam
+   - Exécuter dans la console : python main.py
+
+
+### Usage 🎬
+
+- Lancez l'application en exécutant main.py.
+- Cliquer sur le bouton "Upload File" pour sélectionner un fichier image ou vidéo.
+- Cliquez sur "Play" pour commencer à diffuser le fichier sélectionné.
+- Cliquez sur "Stop" pour arrêter la diffusion.
+
+### Notes ℹ️
+**Caméra virtuelle : Assurez-vous que vous avez installé OBS Studio ou une autre application qui prend en charge les caméras virtuelles pour utiliser le flux diffusé.
+**Formats de fichiers : Les formats pris en charge sont les suivants : .png, .jpg, .jpeg pour les images et .mp4, .avi, .mov pour les vidéos**.
+
+
+
+
+
+
