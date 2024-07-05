@@ -32,6 +32,7 @@ Fake Cam is a Python application that simulates a virtual camera by broadcasting
 - Click on the "Upload File" button to select an image or video file.
 - Click "Play" to start broadcasting the selected file.
 - Click "Stop" to stop broadcasting.
+
 ### Notes ℹ️
-***Virtual Camera: Ensure you have OBS Studio or another application that supports virtual cameras installed to use the broadcasted feed.
-***File Formats: Supported formats include .png, .jpg, .jpeg for images and .mp4, .avi, .mov for videos.
+**Virtual Camera: Ensure you have OBS Studio or another application that supports virtual cameras installed to use the broadcasted feed.**
+**File Formats: Supported formats include .png, .jpg, .jpeg for images and .mp4, .avi, .mov for videos.**
