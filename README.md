@@ -10,9 +10,8 @@ Fake Cam is a Python application that simulates a virtual camera by broadcasting
 - Supports streaming to applications that recognize virtual cameras (e.g., OBS Studio).
 
 ## Requirements 🛠️
-- Python 3.6+
-- OpenCV (pip install opencv-python)
-- PyVirtualCam (pip install pyvirtualcam)
+- Python 3.13.3 (tested)
+- OpenCV and PyVirtualCam (listed in `requirements.txt`)
 - Tkinter (usually included in Python installations)
 
 ### Installation 🚀
@@ -22,7 +21,7 @@ Fake Cam is a Python application that simulates a virtual camera by broadcasting
 
    - git clone https://github.com/AceModz/FakeCam.git
    - cd FakeCam
-   - pip install opencv-python pyvirtualcam
+   - python -m pip install -r requirements.txt
    - Run in console: python main.py
 
 
@@ -35,6 +34,7 @@ Fake Cam is a Python application that simulates a virtual camera by broadcasting
 
 ### Notes ℹ️
 **Virtual Camera: Ensure you have OBS Studio or another application that supports virtual cameras installed to use the broadcasted feed.**
+**Windows: Install OBS Studio and enable its Virtual Camera before clicking Play.**
 **File Formats: Supported formats include .png, .jpg, .jpeg for images and .mp4, .avi, .mov for videos.**
 
 
@@ -53,9 +53,8 @@ Fake Cam est une script en Python qui simule une caméra virtuelle en diffusant 
 - Prise en charge de la diffusion vers des applications qui reconnaissent les caméras virtuelles (par exemple, OBS Studio).
 
 ## Exigences 🛠️
-- Python 3.6+
-- OpenCV (pip install opencv-python)
-- PyVirtualCam (pip install pyvirtualcam)
+- Python 3.13.3 (testé)
+- OpenCV et PyVirtualCam (listés dans `requirements.txt`)
 - Tkinter (généralement inclus dans les installations Python)
 
 ### Installation 🚀
@@ -65,7 +64,7 @@ Fake Cam est une script en Python qui simule une caméra virtuelle en diffusant 
 
    - git clone https://github.com/AceModz/FakeCam.git
    - cd FakeCam
-   - pip install opencv-python pyvirtualcam
+   - python -m pip install -r requirements.txt
    - Exécuter dans la console : python main.py
 
 
@@ -77,11 +76,9 @@ Fake Cam est une script en Python qui simule une caméra virtuelle en diffusant 
 - Cliquez sur "Stop" pour arrêter la diffusion.
 
 ### Notes ℹ️
-**Caméra virtuelle : Assurez-vous que vous avez installé OBS Studio ou une autre application qui prend en charge les caméras virtuelles pour utiliser le flux diffusé.
+**Caméra virtuelle : Assurez-vous que vous avez installé OBS Studio ou une autre application qui prend en charge les caméras virtuelles pour utiliser le flux diffusé.**
+**Windows : Installez OBS Studio et activez sa caméra virtuelle avant de cliquer sur Play.**
 **Formats de fichiers : Les formats pris en charge sont les suivants : .png, .jpg, .jpeg pour les images et .mp4, .avi, .mov pour les vidéos**.
-
-
-
 
 
 
