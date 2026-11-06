@@ -36,11 +36,15 @@ class FakeCamApp:
         self.stop_btn.pack(pady=10)
         
     def upload_file(self):
-        self.file_path = filedialog.askopenfilename(filetypes=[("Video files", "*.mp4;*.avi;*.mov"), ("Image files", "*.png;*.jpg;*.jpeg")])
-        if self.file_path:
+        selected_path = filedialog.askopenfilename(
+            filetypes=[
+                ("Image files", "*.png *.jpg *.jpeg"),
+                ("Video files", "*.mp4 *.avi *.mov"),
+            ]
+        )
+        if selected_path:
+            self.file_path = selected_path
             print(f"File selected: {self.file_path}")
-        else:
-            messagebox.showerror("Error", "No file selected")
 
     def start_broadcast(self):
         if self.file_path:
@@ -65,6 +69,10 @@ class FakeCamApp:
             
     def broadcast_image(self):
         img = cv2.imread(self.file_path)
+        if img is None:
+            print("Error: Cannot open image file.")
+            self.running = False
+            return
         height, width, _ = img.shape
         with pyvirtualcam.Camera(width, height, fps=20, fmt=PixelFormat.BGR) as cam:
             print(f"Using virtual camera: {cam.device}")
